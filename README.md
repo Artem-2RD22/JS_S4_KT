@@ -3,8 +3,8 @@
 
 1. **Клонировать репозиторий:**
    ```bash
-   git clone https://github.com/your-repo/ecommerce-website.git
-   cd ecommerce-website
+   git clone https://github.com/Artem-2RD22/JS_S4_KT.git
+   cd JS_S4_KT
    ```
 
 2. **Установить зависимости:**
