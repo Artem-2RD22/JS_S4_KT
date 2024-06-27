@@ -1,0 +1,381 @@
+body {
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 160px 56px;
+    gap: 32px;
+    width: 1439px;
+    height: 1560px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+    width: 256px;
+    height: 760px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    width: 256px;
+    height: 400px;
+}
+
+.filter-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 0px;
+    gap: 10px;
+    width: 256px;
+    height: 48px;
+    border-bottom: 0.5px solid #B5B5B5;
+}
+
+.filter-title {
+    width: 232px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.filter-icon {
+    width: 24px;
+    height: 24px;
+    background: #000000;
+}
+
+.search-brands {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 256px;
+    height: 336px;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 256px;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    border: 1.5px solid #989898;
+}
+
+.search-text {
+    width: 44px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    color: #656565;
+    opacity: 0.5;
+}
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 256px;
+    height: 280px;
+}
+
+.checkbox-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 256px;
+    height: 24px;
+}
+
+.checkbox {
+    width: 16.33px;
+    height: 15.67px;
+    background: #000000;
+    border-radius: 3px;
+}
+
+.brand-name {
+    width: 231.67px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 831px;
+    height: 1480px;
+}
+
+.top-part {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px 479px;
+    width: 831px;
+    height: 40px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 6px;
+    width: 200px;
+    height: 16px;
+}
+
+.selected-products {
+    width: 144px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16px;
+    color: #6C6C6C;
+}
+
+.product-count {
+    width: 25px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 256px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 0.5px solid #D4D4D4;
+    border-radius: 8px;
+}
+
+.dropdown-text {
+    width: 65px;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.dropdown-icon {
+    width: 24px;
+    height: 24px;
+    transform: rotate(180deg);
+}
+
+.product-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 831px;
+    height: 1344px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+    gap: 16px;
+    width: 266.33px;
+    height: 432px;
+    background: #F7F7F7;
+    border-radius: 9px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 234.33px;
+    height: 32px;
+}
+
+.like-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.product-image {
+    width: 160px;
+    height: 160px;
+    background: url(image.png);
+}
+
+.text-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 234.33px;
+    height: 160px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 234.33px;
+    height: 88px;
+}
+
+.product-name {
+    width: 234.33px;
+    height: 48px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.product-price {
+    width: 234.33px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 64px;
+    gap: 8px;
+    width: 186px;
+    height: 48px;
+    background: #000000;
+    border-radius: 8px;
+}
+
+.button-label {
+    width: 58px;
+    height: 24px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 276px;
+    height: 32px;
+}
+
+.pagination-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.page-numbers {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 8px;
+    width: 196px;
+    height: 32px;
+}
+
+.page-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 11px;
+    gap: 8px;
+    width: 32px;
+    height: 32px;
+    background: #F6F6F6;
+    border-radius: 5px;
+}
+
+.page-number.active {
+    background: #000000;
+}
+
+.page-number-text {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ellipsis {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 3px;
+    gap: 4px;
+    width: 24px;
+    height: 6px;
+}
+
+.ellipsis-dot {
+    width: 3px;
+    height: 3px;
+    background: #737373;
+}

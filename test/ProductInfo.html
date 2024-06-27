@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <div class="filters">
+            <div class="filter-group">
+                <div class="filter-header">
+                    <span class="filter-title">Brand</span>
+                    <span class="filter-icon"></span>
+                </div>
+                <div class="search-brands">
+                    <div class="search-field">
+                        <span class="search-icon"></span>
+                        <span class="search-text">Search</span>
+                    </div>
+                    <div class="brands">
+                        <!-- Repeat for each brand -->
+                        <div class="checkbox-field">
+                            <div class="checkbox"></div>
+                            <span class="brand-name">Apple 110</span>
+                        </div>
+                        <!-- Repeat for each brand -->
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other filters -->
+        </div>
+        <div class="products">
+            <div class="top-part">
+                <div class="left-side">
+                    <span class="selected-products">Selected Products:</span>
+                    <span class="product-count">85</span>
+                </div>
+                <div class="dropdown">
+                    <span class="dropdown-text">By rating</span>
+                    <span class="dropdown-icon"></span>
+                </div>
+            </div>
+            <div class="product-cards">
+                <!-- Repeat for each product -->
+                <div class="product-card">
+                    <div class="top-section">
+                        <span class="like-icon"></span>
+                    </div>
+                    <div class="product-image"></div>
+                    <div class="text-icon">
+                        <div class="info">
+                            <span class="product-name">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</span>
+                            <span class="product-price">$1399</span>
+                        </div>
+                        <div class="button">
+                            <span class="button-label">Buy Now</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for each product -->
+            </div>
+            <div class="pagination">
+                <span class="pagination-icon prev"></span>
+                <div class="page-numbers">
+                    <!-- Repeat for each page number -->
+                    <div class="page-number active">
+                        <span class="page-number-text">1</span>
+                    </div>
+                    <!-- Repeat for each page number -->
+                    <div class="ellipsis">
+                        <span class="ellipsis-dot"></span>
+                        <span class="ellipsis-dot"></span>
+                        <span class="ellipsis-dot"></span>
+                        <span class="ellipsis-dot"></span>
+                    </div>
+                    <!-- Repeat for each page number -->
+                    <div class="page-number">
+                        <span class="page-number-text">5</span>
+                    </div>
+                    <span class="pagination-icon next"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
